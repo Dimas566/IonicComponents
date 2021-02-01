@@ -17,6 +17,10 @@ export class DataService {
     return this.httClient.get(this.endpointUsers);
   }
 
+  getAlbumes(){
+    return this.httClient.get<any[]>("https://jsonplaceholder.typicode.com/albums");
+  }
+
   getMenuOpts(){
     return this.httClient.get<Elemento[]>('/assets/data/menu-opts.json');
   }

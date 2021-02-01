@@ -87,5 +87,15 @@
       "icon" : "code-working-outline",
       "name" : "Progress",
       "redirectTo" : "/progress"
+    },
+    {
+      "icon" : "arrow-down-outline",
+      "name" : "Refresher",
+      "redirectTo" : "/refresher" 
+    },
+    {
+      "icon" : "search-outline",
+      "name" : "Search",
+      "redirectTo" : "/search"
     }
   ]
